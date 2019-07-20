@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Monthly expensive</title>
+  <link href="style.css" type="text/css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css"
+    integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous" />
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="Available_budget">
+        Available Budget in <span class="budget_month">%Month%</span>
+      </div>
+      <div class="budget_calculator">+2,2223.43</div>
+      <div class="income clearfix">
+        <span class="left">income</span>
+        <span class="righte in" id="global__income">+4,300.22</span>
+      </div>
+      <div class="expense clearfix ">
+        <span class="left">expenses</span>
+        <span class="percentage-exp global" id="percent__global">23%</span>
+        <span class="righte ex" id="global__expense">-1,954.22</span>
+      </div>
+    </div>
+  </div>
+  <div class="wrapper">
+    <div class="row1">
+      <form>
+        <select name="plus&minus" class="add_type">
+          <option value="inc">+</option>
+          <option value="exp">-</option>
+        </select>
+        <input type="text" placeholder="Add description" class="task" />
+        <input type="number" placeholder="Value" class="Value" />
+        <button type="button" class="btn-tick">
+          <img src="verified.svg" class="icon" />
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <div class="bottomPart clearfix">
+    <div class="income-list">
+      <div class="heading">Income</div>
+
+      <!--              
+            <div class="list" id = "inc-0"><p class="text-field">Car Sold</p> 
+                
+            <button class="btn-remove" id="btn-remove__income"><i class="far fa-times-circle remove"></i></button>
+            
+            <span class="right"><p>+3000.00</p></span>
+
+            </div>
+       -->
+    </div>
+
+    <div class="expense-list">
+      <div class="headingRed">Expense</div>
+
+      <!-- <div class="list" id = "exp-0"><p class="text-field">Car Sold </p>
+                    <button class="btn-remove exp" id="btn-remove__expense"><i class="far fa-times-circle remove"></i></button>
+                    <span class="percentage-expenses">23%</span>
+                    <span class="right exp">+3000.00</span>
+                    </div>
+                </div> -->
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
